@@ -17,6 +17,9 @@ public class FilmTmdbEntertainmentSite extends FilmEntertainmentSite {
 	public FilmTmdbEntertainmentSite() {
 	}
 
+	//
+	//This is the main function called by the outside world.  All the functions in this class are supporting functions
+	//
 	public ArrayList<BaseFilm> getFilmEntertainmentSiteResults(String searchFilmName) {
 
 		URL searchUrl = buildSearchUrl(searchFilmName);
